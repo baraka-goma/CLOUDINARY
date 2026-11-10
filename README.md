@@ -2,7 +2,7 @@
 
 Une galerie photo responsive qui présente sept images hébergées sur Cloudinary. Une photographie à la une vous accueille; une section éditoriale explique comment parcourir la collection. Sélectionnez une photo pour l’agrandir, consulter son URL originale, la copier ou télécharger le fichier.
 
-**URL prévue du site :** [https://baraka-goma.github.io/CLOUDINARY/](https://baraka-goma.github.io/CLOUDINARY/) *(à ouvrir après l’activation de GitHub Pages ci-dessous).*
+**Site publié :** [https://baraka-goma.github.io/CLOUDINARY/](https://baraka-goma.github.io/CLOUDINARY/)
 
 **Dépôt GitHub :** [baraka-goma/CLOUDINARY](https://github.com/baraka-goma/CLOUDINARY)
 
@@ -66,12 +66,9 @@ Pour tester les mêmes conditions qu’un hébergement HTTP, vous pouvez aussi u
 
 ## Publication sur GitHub Pages
 
-Le workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) prépare et publie le site à chaque push vers `main`. **La première activation doit être faite dans les paramètres du dépôt** : le jeton automatique du workflow ne peut pas activer Pages à la place du propriétaire.
+Le workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) prépare et publie le site à chaque push vers `main`. Pages est activé pour ce dépôt. Si vous configurez le projet dans un autre dépôt, choisissez **GitHub Actions** comme source dans **Settings → Pages** avant son premier déploiement.
 
-1. Ouvrez **Settings → Pages** dans le dépôt GitHub.
-2. Sous **Build and deployment**, choisissez **GitHub Actions** comme source.
-3. Comme le premier essai précède l’activation de Pages, ouvrez **Actions → Publier sur GitHub Pages → Re-run jobs** (ou poussez un changement du site).
-4. Vérifiez que le workflow réussit. Le site devient alors accessible à l’adresse indiquée dans **Settings → Pages**.
+Vérifiez les déploiements dans l’onglet **Actions** du dépôt. Après publication, l’adresse du site figure aussi dans **Settings → Pages**.
 
 ## Ajouter ou remplacer une image
 
