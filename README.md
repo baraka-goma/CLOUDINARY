@@ -1,6 +1,6 @@
 # Fragments — Galerie Cloudinary
 
-Une galerie photo responsive qui présente sept images hébergées sur Cloudinary. Sélectionnez une photo pour l’agrandir, consulter son URL originale, la copier ou télécharger le fichier.
+Une galerie photo responsive qui présente sept images hébergées sur Cloudinary. Une photographie à la une vous accueille; une section éditoriale explique comment parcourir la collection. Sélectionnez une photo pour l’agrandir, consulter son URL originale, la copier ou télécharger le fichier.
 
 **URL prévue du site :** [https://baraka-goma.github.io/CLOUDINARY/](https://baraka-goma.github.io/CLOUDINARY/) *(à ouvrir après l’activation de GitHub Pages ci-dessous).*
 
@@ -17,10 +17,12 @@ La capture ci-dessous montre la bibliothèque média utilisée pour le projet.
 ## Fonctionnalités
 
 - **Galerie interactive :** les sept vignettes sont cliquables et ouvrent une fiche détaillée.
+- **Photo à la une :** une image Cloudinary mise en avant dans l’accueil s’ouvre elle aussi dans sa fiche.
 - **Fiche de chaque image :** aperçu agrandi, nom du fichier et URL Cloudinary complète et cliquable.
 - **Copie en un clic :** bouton pour copier le lien original; un message indique si la copie a réussi.
 - **Téléchargement :** lien de téléchargement direct servi par Cloudinary, sans conserver de copie des images dans le dépôt.
 - **Recherche :** filtre les photos par nom de fichier; la touche `/` place le curseur dans le champ.
+- **Présentation enrichie :** introduction à la collection, repères sur les images et guide simple en trois étapes.
 - **Responsive et accessible :** mise en page pour mobile, tablette et ordinateur, navigation au clavier, libellés accessibles et prise en compte de la réduction des animations.
 - **Chargement optimisé :** vignettes chargées à la demande et images optimisées par la diffusion Cloudinary.
 - **Publication automatisée :** GitHub Actions publie le site sur GitHub Pages après chaque changement sur `main`.

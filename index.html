@@ -39,41 +39,100 @@
           <p class="eyebrow"><span>GALERIE PHOTO</span><span class="eyebrow-divider"></span><span>COLLECTION 01</span></p>
           <h1 id="page-title">Des images,<br>des <span>histoires.</span></h1>
           <p class="intro-text">
-            Une collection de portraits hébergés dans le cloud. Ouvre une image
-            pour la voir en détail, copier son adresse ou la télécharger.
+            Sept photographies, sept instants à découvrir. Cette galerie rassemble
+            des portraits accessibles depuis n’importe quel écran, directement
+            depuis la bibliothèque Cloudinary.
           </p>
+          <div class="intro-facts" aria-label="À propos de la collection">
+            <div class="intro-fact"><strong>07</strong><span>photographies</span></div>
+            <span class="fact-divider" aria-hidden="true"></span>
+            <div class="intro-fact"><strong>01</strong><span>collection</span></div>
+            <span class="fact-divider" aria-hidden="true"></span>
+            <div class="intro-fact"><strong>100%</strong><span>Cloudinary</span></div>
+          </div>
           <a class="scroll-cue" href="#galerie">
             <span class="scroll-cue-icon" aria-hidden="true">↓</span>
             <span>DÉCOUVRIR LA COLLECTION</span>
           </a>
         </div>
-        <aside class="intro-aside" aria-label="À propos de la collection">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="orbit-center" aria-hidden="true">
-            <svg viewBox="0 0 80 80">
-              <rect x="14" y="19" width="52" height="43" rx="8"></rect>
-              <circle cx="40" cy="40" r="11"></circle>
-              <circle class="camera-dot" cx="56" cy="29" r="3"></circle>
-              <path d="m18 54 13-13 9 9 7-7 15 15"></path>
-            </svg>
-          </div>
+        <button class="intro-aside" id="featured-image" type="button" aria-label="Voir les détails de l’image à la une, me4.jpg">
+          <img
+            class="featured-photo"
+            src="https://res.cloudinary.com/fzezwnv1/image/upload/v1794312102/me4.jpg"
+            alt="Portrait en extérieur, à la une de la collection"
+            width="810"
+            height="1080"
+            fetchpriority="high"
+            decoding="async"
+          >
+          <span class="featured-shade" aria-hidden="true"></span>
+          <span class="featured-tag"><span></span> À LA UNE · 03 / 07</span>
+          <span class="featured-open" aria-hidden="true">
+            <svg viewBox="0 0 20 20"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4M7 10h6"></path></svg>
+          </span>
           <div class="aside-caption">
             <span class="aside-caption-line"></span>
-            <p>Un regard.<br>Sept instants.</p>
+            <p>Un instant en mouvement.<br>Une histoire à découvrir.</p>
           </div>
-          <span class="aside-index" aria-hidden="true">01 / 07</span>
-        </aside>
+          <span class="aside-index">ME4.JPG · CLOUDINARY</span>
+        </button>
+      </section>
+
+      <section class="story-section" aria-labelledby="story-title">
+        <div class="story-heading">
+          <p class="eyebrow section-eyebrow">PRENDRE LE TEMPS DE REGARDER</p>
+          <h2 id="story-title">Chaque portrait mérite<br>qu’on s’y <span>attarde.</span></h2>
+        </div>
+        <div class="story-content">
+          <p class="story-lead">
+            Une photo peut faire revivre un lieu, un moment ou une rencontre.
+            Fragments réunit ici sept images personnelles dans une galerie
+            simple, pensée pour les regarder tranquillement.
+          </p>
+          <p class="story-detail">
+            Les photos restent hébergées sur Cloudinary et s’affichent directement
+            dans le navigateur. Touchez une image pour découvrir sa version
+            complète, retrouver son adresse de partage ou enregistrer le fichier.
+            Pas de compte à créer, pas de détour : seulement la photo et son histoire.
+          </p>
+          <a class="story-link" href="#galerie">
+            Explorer les sept photos <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="story-steps" aria-label="Comment utiliser la galerie">
+          <article class="story-step">
+            <span class="step-number">01</span>
+            <div>
+              <h3>Choisissez une image</h3>
+              <p>Parcourez les portraits et recherchez un fichier par son nom.</p>
+            </div>
+          </article>
+          <article class="story-step">
+            <span class="step-number">02</span>
+            <div>
+              <h3>Ouvrez sa fiche</h3>
+              <p>Consultez la photo en grand et son adresse Cloudinary d’origine.</p>
+            </div>
+          </article>
+          <article class="story-step">
+            <span class="step-number">03</span>
+            <div>
+              <h3>Gardez ou partagez</h3>
+              <p>Copiez le lien public ou téléchargez l’image sur votre appareil.</p>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section class="gallery-section" id="galerie" aria-labelledby="gallery-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow section-eyebrow">LA SÉLECTION</p>
+            <p class="eyebrow section-eyebrow">LES IMAGES, DIRECTEMENT DEPUIS LE CLOUD</p>
             <h2 id="gallery-title">La galerie<span class="heading-period">.</span></h2>
           </div>
           <p class="gallery-description">
-            Chaque image s’ouvre sur sa fiche et son lien Cloudinary original.
+            Parcourez les sept fichiers originaux. Ouvrez une photo pour afficher
+            ses détails, copier son lien public ou la télécharger.
           </p>
         </div>
 
@@ -103,7 +162,7 @@
         </span>
         <div>
           <h2>Dans le cloud, disponibles partout.</h2>
-          <p>Les images sont diffusées directement par Cloudinary — rien n’est stocké dans ce dépôt.</p>
+          <p>Chaque photo est diffusée par Cloudinary. Le dépôt ne contient aucune copie des images ni clé secrète.</p>
         </div>
         <a href="https://cloudinary.com/" target="_blank" rel="noreferrer">
           À propos de Cloudinary <span aria-hidden="true">↗</span>

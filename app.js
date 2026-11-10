@@ -97,6 +97,10 @@ function openImage(image, index) {
 
 search.addEventListener("input", () => renderGallery(search.value));
 
+document.querySelector("#featured-image").addEventListener("click", () => {
+  openImage(images[2], 2);
+});
+
 document.querySelector("#dialog-close").addEventListener("click", () => dialog.close());
 
 dialog.addEventListener("click", (event) => {
